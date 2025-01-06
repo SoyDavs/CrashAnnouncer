@@ -20,7 +20,6 @@ class Main extends PluginBase implements Listener {
         
         // Register events
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info($this->config->getNested("messages.plugin-enabled"));
     }
     
     public function handleCrash($errno, $errstr, $errfile, $errline): bool {
