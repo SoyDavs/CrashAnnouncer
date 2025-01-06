@@ -1,0 +1,16 @@
+# CrashAnnouncer Configuration
+# Plugin by SoyDavs
+
+# Discord webhook URL
+webhook-url: "PASTE_YOUR_WEBHOOK_URL_HERE"
+
+# Embed customization
+embed-title: "Server Crash Report"
+embed-description: "The server has experienced a crash. Details below:"
+embed-color: "#FF0000"  # Red color for the embed
+
+# Messages
+messages:
+  error-webhook: "Failed to send crash report to Discord webhook"
+  plugin-enabled: "CrashAnnouncer has been enabled successfully"
+  plugin-disabled: "CrashAnnouncer has been disabled"

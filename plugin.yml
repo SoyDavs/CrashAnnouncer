@@ -1,0 +1,6 @@
+name: CrashAnnouncer
+main: SoyDavs\CrashAnnouncer\Main
+version: 1.0.0
+api: 5.0.0
+author: SoyDavs
+description: Announces server crashes to Discord via webhook
