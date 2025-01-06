@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/SoyDavs/CrashAnnouncer
+build-by-default: true
+branches:
+- main
+projects:
+  CrashAnnouncer:
+    path: ""
+    lint:
+      phpstan: false
+...
